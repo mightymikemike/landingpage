@@ -1,9 +1,10 @@
-body {
-    height: 100vh;
+html, body {
+    min-height: 100vh;
     margin: 0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
 }
 
 .top {
@@ -69,6 +70,7 @@ button {
     width: 100px;
     height: 30px;
     border-radius: 15px;
+    margin-bottom: 100px;
 }
 
 .placeholder {
@@ -82,4 +84,80 @@ button {
     align-items: center;
     margin-left: 300px;
     margin-top: 50px;
+}
+
+.info {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header2 {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.midsection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-color: #3882f6;
+    color: white;
+    width: 135px;
+    height: 135px;
+    border-radius: 5px;
+}
+
+.texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.text {
+    display: flex;
+    width: 140px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.quotes {
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name {
+
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 10
+    px;
 }
